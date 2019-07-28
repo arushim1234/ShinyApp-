@@ -99,8 +99,8 @@ ui <- shinyUI(
 
 # Defining Server function
 
-getwd()
-setwd('C:/Users/ARUSHI/Desktop/ISB_Residency/Residency 2/Text Analytics/Assignment/Deliverables')
+#getwd()
+#setwd('C:/Users/ARUSHI/Desktop/ISB_Residency/Residency 2/Text Analytics/Assignment/Deliverables')
 server <- shinyServer(function(input, output) {
   
   DS <- reactive({
